@@ -1,5 +1,6 @@
 export default class Machine {
-  constructor() {
-
+  constructor(items) {
+    this.name = items.name
+    this.price = items.price
   }
 }
